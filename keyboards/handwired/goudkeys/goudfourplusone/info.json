@@ -1,0 +1,49 @@
+{
+    "manufacturer": "GoudKeys",
+    "keyboard_name": "GoudFourPlusOne",
+    "maintainer": "simongoudie",
+    "diode_direction": "COL2ROW",
+    "development_board": "promicro",
+    "features": {
+        "bootmagic": true,
+        "command": false,
+        "console": false,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true,
+        "encoder": true
+    },
+    "ws2812": {
+        "pin": "D3"
+    },
+    "build": {
+        "lto": true
+    },
+    "matrix_pins": {
+        "direct": [
+            ["C6", "D4", "D0", "D1","D7"]
+        ]
+    },
+    "url": "https://example.com",
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x0014",
+        "vid": "0x534B"
+    },
+    "encoder": {
+        "rotary": [
+            { "pin_a": "B4", "pin_b": "B5", "resolution": 4 }
+        ]
+    },
+    "layouts": {
+        "LAYOUT_numpad_1x5": {
+            "layout": [
+                { "matrix": [0, 0], "x": 0, "y": 0 },
+                { "matrix": [0, 1], "x": 1, "y": 0 },
+                { "matrix": [0, 2], "x": 2, "y": 0 },
+                { "matrix": [0, 3], "x": 3, "y": 0 },
+                { "matrix": [0, 4], "x": 4, "y": 0 }
+            ]
+        }
+    }
+}

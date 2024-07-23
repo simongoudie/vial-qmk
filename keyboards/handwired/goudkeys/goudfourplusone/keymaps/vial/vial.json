@@ -1,0 +1,32 @@
+{
+  "name": "GoudKeys",
+  "vendorId": "0x534B",
+  "productId": "0x0003",
+  "lighting": "none",
+  "matrix": {
+    "rows": 1,
+    "cols": 5
+  },
+  "layouts": {
+    "keymap": [
+        [
+          {
+            "x": 4,
+            "p": "R1"
+          },
+          "0,0\n\n\n\n\n\n\n\n\ne",
+          "0,1\n\n\n\n\n\n\n\n\ne"
+        ],
+        [
+          "0,3",
+          "0,2",
+          "0,1",
+          "0,0",
+          {
+            "x": 0.5
+          },
+          "0,4"
+        ]
+    ]
+  }
+}
